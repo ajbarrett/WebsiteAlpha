@@ -1,0 +1,83 @@
+a{
+  color: #088080;
+}
+h1{
+  font-size: 10rem;
+}
+summary{
+  color: #088080;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+/* ON-CAMPUS */
+.sdsu-ai-pic{
+  float: left;
+  padding-right: 30px;
+  width: 25%;
+}
+.fratmaners-pic{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.phi-delt-pic{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+/* EDUCATION */
+.coursework-col{
+  font-size: 1.25rem;
+  line-height: 4rem;
+}
+.coursework-row{
+  padding: 0 10%;
+}
+.education{
+  font-size: 2rem;
+}
+.education-subtitle{
+  padding: 50px 0;
+}
+.sdsu-pic{
+  width: 50%;
+}
+.top-container{
+  padding-bottom: 200px; /*may need to change later*/
+}
+
+/* PROJECTS */
+.projects-header{
+  padding-bottom: 50px;
+}
+.project-subcontainer{
+  text-align: left;
+  padding: 10px 10%;
+}
+
+
+
+
+
+/* MISC */
+.underline{
+  text-decoration: underline;
+}
+
+
+/* MEDIA */
+@media (max-width: 1200px) and (min-width:800px){
+  .skill-pic{
+    height: 150px;
+    width: auto;
+  }
+}
+@media (max-width: 800px){
+  .skill-pic{
+    height: 115px;
+    width: auto;
+    padding-left: 10px;
+    float: none;
+  }
+}
